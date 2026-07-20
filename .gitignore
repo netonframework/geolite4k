@@ -1,0 +1,5 @@
+.gradle/
+build/
+local.properties
+*.mmdb
+!src/nativeTest/resources/GeoLite2-City-Test.mmdb

@@ -1,0 +1,5 @@
+GeoLite2-City-Test.mmdb is copied from the MaxMind-DB specification repository:
+https://github.com/maxmind/MaxMind-DB
+
+The MaxMind-DB specification and test data are available under Apache-2.0 or
+MIT terms. This test fixture is not the production GeoLite2 database.
