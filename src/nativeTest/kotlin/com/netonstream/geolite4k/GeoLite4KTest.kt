@@ -1,4 +1,4 @@
-package com.netonframework.geolite4k
+package com.netonstream.geolite4k
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

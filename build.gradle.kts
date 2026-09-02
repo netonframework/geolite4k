@@ -8,7 +8,7 @@ plugins {
 // com.netonstream 是本组织在 Maven Central 上已验证的 namespace。
 // geolite4k 是独立库（不是 neton-* 框架模块），所以不带 neton- 前缀，也走自己的版本线。
 group = "com.netonstream"
-version = "0.1.0"
+version = "0.1.1"
 
 repositories {
     mavenCentral()

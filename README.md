@@ -4,7 +4,7 @@ Pure Kotlin/Native reader for MaxMind DB (`.mmdb`) files. It has no JVM/JNI
 dependency and does not bundle MaxMind's GeoLite2 database.
 
 ```kotlin
-implementation("com.netonstream:geolite4k:0.1.0")
+implementation("com.netonstream:geolite4k:0.1.1")
 ```
 
 Targets: `macosArm64`, `macosX64`, `linuxX64`, `linuxArm64`, `mingwX64`.
