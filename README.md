@@ -4,6 +4,12 @@ Pure Kotlin/Native reader for MaxMind DB (`.mmdb`) files. It has no JVM/JNI
 dependency and does not bundle MaxMind's GeoLite2 database.
 
 ```kotlin
+implementation("com.netonstream:geolite4k:0.1.0")
+```
+
+Targets: `macosArm64`, `macosX64`, `linuxX64`, `linuxArm64`, `mingwX64`.
+
+```kotlin
 val resolver = GeoLite4K.open("./data/geoip/GeoLite2-City.mmdb")
 when (val result = resolver.lookup("8.8.8.8")) {
     is GeoLiteLookupResult.Found -> println(result.location.displayName)
